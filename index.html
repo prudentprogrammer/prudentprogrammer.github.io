@@ -6,7 +6,8 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
@@ -17,23 +18,24 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
     
-    <script src="./index.js"></script>
+    <script src="js/index.js"></script>
     
     <nav>
-      <div class="nav-wrapper white">
-        <a href="#" class="brand-logo left grey-text text-darken-4">prudentprogrammer</a>
+      <div class="nav-wrapper blue-grey darken-4">
+        
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#" class="grey-text text-darken-4">Experience</a></li>
-          <li><a href="#" class="grey-text text-darken-4">Projects</a></li>
-          <li><a href="#" class="grey-text text-darken-4">Skills</a></li>
-          <li><a href="#" class="grey-text text-darken-4">Education</a></li>
-          <li><a href="#" class="grey-text text-darken-4">Hobbies and Personal Goals</a></li>
+          <li><a href="#" class="white-text">Experience</a></li>
+          <li><a href="#" class="white-text">Projects</a></li>
+          <li><a href="#" class="white-text">Skills</a></li>
+          <li><a href="#" class="white-text">Education</a></li>
+          <li><a href="#" class="white-text">Personal Life</a></li>
       </ul>
       </div>
     
     </nav>
     
-    <div class="slider" style="height: 80%;">
+
+    <div class="slider">
       <ul class="slides">
         <li>
         <img src="http://www.hdwallpapersinn.com/wp-content/uploads/2014/07/hd-wallpapers-for-windows-7-1.jpg">
@@ -72,27 +74,66 @@
      </ul>
     </div>
     
+    
+
+
     <div class="container about">
       <h5>About Me</h5>
       <h6>Introduction</h6>
       <hr>
-      <div class="row">
-          <div class="col s12 m4 l4">
-            <h6>Story</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <div class="row">
+        <div class="col s12 m4 l4">
+          <h6>Background &amp; Interests</h6>
+          <p>I am an aspiring developer with a tremendous interest in software. After poking around with different areas in computer science and software development, I finally discovered my interests and dreams recently. The two fields that fully engage and motivate me are full stack development and data science.</p>
+          <p>I love full stack development because they enable you to enhance the understanding of the web and enable you to "get the big picture" of how everything in the web works.</p>
+          <p>Another part of me also likes data science mainly due to the circumstances of the modern age. We are generating more data than we ever did in the past and analyzing and understanding it greatly fascinates me even till this day. </p> 
+        </div>
+        <!-- <div class="col s12 m4 l4">
+          <h6>Profile</h6>
+          <div class="card grey darken-4">
+            <div class="card-content white-text">
+              <div class="valign-wrapper">
+              <img src="images/profile.png" class="valign" width="64" height="64">
+            </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link</a>
+              <a href='#'>Link</a>
+            </div>
           </div>
+        </div> -->
+
+
           <div class="col s12 m4 l4">
-            <h6>Story</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="card blue-grey darken-1  center-align">
+              <div class="card-content white-text">
+                <span class="card-title">Arjun Bharadwaj</span>
+                <p>Graduate Student</p>
+                <p>University of California, Davis</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Education</a>
+                <a href="#">Experience</a>
+              </div>
+            </div>
           </div>
-          <div class="col s12 m4 l4">
-            <h6>Story</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-      </div>
+
+
+
+        <div class="col s12 m4 l4">
+          <h6>Current Jobs</h6>
+          <ul class="collapsible">
+            <li class="active">
+              <div class="collapsible-header"><i class="material-icons">school</i>Full-time Graduate Student</div>
+              <div class="collapsible-body"><p>I am currently pursuing graduate studies at UC Davis with plans of performing extensive research.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">work</i>Part-time Student Programmer</div>
+              <div class="collapsible-body"><p>I currently work as a student programmer (as part-time) in the Institute of Transportation Studies (ITS) located in West Village, Davis.</p></div>
+            </li>
+          </ul>
+        </div>
       
       
     </div>
