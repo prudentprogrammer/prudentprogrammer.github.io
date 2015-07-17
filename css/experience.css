@@ -21,3 +21,7 @@ nav ul li:hover, nav ul li.active
 .collapsible {
   background: #EBE9E9;
 }
+
+.collapsible-header {
+  font-weight: bold;
+}
