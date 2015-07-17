@@ -28,4 +28,9 @@ nav ul li:hover, nav ul li.active
 .parallax-container {
    height: 425px;
 }
+
+.collapsible-body
+{
+  padding-left: 10px;
+}
        

@@ -25,3 +25,28 @@ nav ul li:hover, nav ul li.active
 .collapsible-header {
   font-weight: bold;
 }
+
+.material-icons #workIcon
+{
+  padding-top: 5px;
+}
+
+#experienceTitle
+{
+  display: inline-flex;
+  padding-top: 10px;
+}
+
+.collapsible-body ul
+{
+  margin: 0;
+  padding: 2rem;
+}
+
+ul li {
+  font-size: 17px;
+}
+
+ul li #extraneous {
+  padding-left:1.1em;
+}
