@@ -1,0 +1,23 @@
+body {
+  background-image: url("../images/blue_background.jpg");
+}
+
+.page-title
+{
+  font-size: 1.5em;
+  padding-left: 20px;
+}
+
+nav ul li:hover, nav ul li.active 
+{
+  background-color: #437ED7;
+}
+
+#introduction
+{
+  color: black;
+}
+
+.collapsible {
+  background: #EBE9E9;
+}

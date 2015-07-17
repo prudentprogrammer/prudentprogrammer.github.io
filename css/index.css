@@ -1,7 +1,9 @@
 .about .col
 {
-  margin-bottom: 24px;
+  margin-bottom: 5px;
 }
+
+
 
 .about h5
 {
@@ -14,16 +16,16 @@
 {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 
 }
 
-nav ul li:hover, nav ul li.active {
+nav ul li:hover, nav ul li.active 
+{
   background-color: #437ED7;
  }
 
-#customizr-slider.carousel .item {
-height:         90%;
-min-height:     400px;
-line-height:    400px;
+.parallax-container {
+   height: 425px;
 }
+       
