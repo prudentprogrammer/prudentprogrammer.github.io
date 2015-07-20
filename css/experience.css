@@ -2,6 +2,8 @@ body {
   background-image: url("../images/blue_background.jpg");
 }
 
+
+
 .page-title
 {
   font-size: 1.5em;
@@ -36,6 +38,15 @@ nav ul li:hover, nav ul li.active
   display: inline-flex;
   padding-top: 10px;
 }
+
+.collapsible-header {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: "…" "…";
+
+}
+
+
 
 .collapsible-body ul
 {
