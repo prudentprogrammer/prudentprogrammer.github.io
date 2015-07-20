@@ -1,9 +1,12 @@
+.brand-logo 
+{
+  margin-left: 10px;
+}
+
 .about .col
 {
   margin-bottom: 5px;
 }
-
-
 
 .about h5
 {
@@ -32,5 +35,4 @@ nav ul li:hover, nav ul li.active
 .collapsible-body
 {
   padding-left: 10px;
-}
-       
+}    
