@@ -1,0 +1,61 @@
+body {
+  background-image: url("../images/orange_background.jpg");
+}
+
+.page-title
+{
+  font-size: 1.5em;
+  padding-left: 20px;
+}
+
+nav ul li:hover, nav ul li.active 
+{
+  background-color: #ffb300;
+}
+
+#introduction
+{
+  color: black;
+}
+
+.collapsible {
+  background: #eceff1;
+}
+
+.collapsible-header {
+  font-weight: bold;
+}
+
+.material-icons #workIcon
+{
+  padding-top: 5px;
+}
+
+#experienceTitle
+{
+  display: inline-flex;
+  padding-top: 10px;
+}
+
+.collapsible-body ul
+{
+  margin: 0;
+  padding: 2rem;
+  font-weight: 500;
+}
+
+ul li {
+  font-size: 15px;
+}
+
+ul li #extraneous {
+  padding-left:1.1em;
+}
+
+.collection-item {
+  font-weight: bold;
+}
+
+.collection .collection-item.avatar .title {
+  font-size: 17px;
+}
