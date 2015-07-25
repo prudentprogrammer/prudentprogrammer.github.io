@@ -12,7 +12,14 @@ $(document).ready(function(){
       belowOrigin: true // Displays dropdown below the button
     }
   );
+  // Initialize collapse button-collapse
+ $('.button-collapse').sideNav({
+      menuWidth: 240, // Default is 240
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    }
+  );
+      
+
 });
 
-// Initialize collapse button
-  $(".button-collapse").sideNav();

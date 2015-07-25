@@ -45,3 +45,58 @@ nav ul li:hover, nav ul li.active
   font-size: 1rem;
   background-color: #8c9eff ;
 }
+
+/*.contact .col
+{
+    margin-bottom: 24px;
+}*/
+
+.contact h5
+{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact h6
+{
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.contact .contact-holder
+{
+    padding-left: 40px;
+}
+
+.contact .contact-holder h6
+{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact .contact-holder p
+{
+    margin-bottom: 30px;
+}
+
+.page-footer .row {
+  margin-bottom: 5px;
+}
+
+.materialize-textarea {
+  margin-top: 0px;
+}
+
+.regHor {
+  width: inherit;
+}
+
+#mainLink {
+  padding-left: 1.2rem;
+}
