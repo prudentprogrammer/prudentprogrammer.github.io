@@ -2,8 +2,6 @@ body {
   background-image: url("../images/blue_background.jpg");
 }
 
-
-
 .page-title
 {
   font-size: 1.5em;
@@ -46,8 +44,6 @@ nav ul li:hover, nav ul li.active
 
 }
 
-
-
 .collapsible-body ul
 {
   margin: 0;
@@ -61,4 +57,21 @@ ul li {
 
 ul li .extraneous {
   padding-left:1.1em;
+}
+
+#mainLink {
+  padding-left: 1.2rem;
+}
+
+.dropdown-content li>a {
+  font-size: 1rem;
+}
+
+.dropdown-content li:hover>a, .dropdown-content li:active>span {
+  font-size: 1rem;
+  background-color: #8c9eff ;
+}
+
+nav .button-collapse i {
+  padding-left: 1.2rem;
 }

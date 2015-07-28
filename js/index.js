@@ -1,6 +1,4 @@
 $(document).ready(function(){
-  $('.slider').slider();
-
   $('.parallax').parallax();
 
   $('.dropdown-button').dropdown({
@@ -19,7 +17,5 @@ $(document).ready(function(){
       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     }
   );
-      
-
 });
 
