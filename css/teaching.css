@@ -22,10 +22,6 @@ nav ul li:hover, nav ul li.active
   background: #eceff1;
 }
 
-.collapsible-header {
-  font-weight: bold;
-}
-
 .material-icons #workIcon
 {
   padding-top: 5px;
@@ -41,7 +37,7 @@ nav ul li:hover, nav ul li.active
 {
   margin: 0;
   padding: 2rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 ul li {
