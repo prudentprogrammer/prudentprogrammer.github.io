@@ -67,3 +67,12 @@ ul li #extraneous {
 nav .button-collapse i {
   padding-left: 1.2rem;
 }
+
+.dropdown-content li>a {
+  font-size: 1rem;
+}
+
+.dropdown-content li:hover>a, .dropdown-content li:active>span {
+  font-size: 1rem;
+  background-color: #64dd17 ;
+}

@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/dark_grey_background.jpg");
+  background-image: url("../images/purple_background_1.jpg");
 }
 
 .page-title
@@ -10,7 +10,7 @@ body {
 
 nav ul li:hover, nav ul li.active 
 {
-  background-color: #bdbdbd  ;
+  background-color: #ce93d8;
 }
 
 #introduction
@@ -45,7 +45,7 @@ nav ul li:hover, nav ul li.active
 }
 
 ul li {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 ul li #extraneous {
@@ -58,23 +58,6 @@ ul li #extraneous {
 
 .collection .collection-item.avatar .title {
   font-size: 17px;
-}
-
-#mainParagraph {
-  font-size: 1.2rem;
-}
-
-.scrollspy {
-  font-size: 1.1rem;
-}
-
-h4 {
-  text-transform: uppercase;
-  font-size: 1.5rem;
-}
-
-.table-of-contents a:hover {
-  font-weight: bold;
 }
 
 #mainLink {
@@ -91,5 +74,21 @@ nav .button-collapse i {
 
 .dropdown-content li:hover>a, .dropdown-content li:active>span {
   font-size: 1rem;
-  background-color: #bdbdbd ;
+  background-color: #ce93d8 ;
+}
+
+.flow-text {
+  font-size: 1.1rem;
+}
+
+.section {
+  padding-bottom: 0rem;
+}
+
+#currentParagraph {
+  padding-top: 0rem;
+}
+
+#pragParagraph {
+  padding-bottom: 0rem;
 }
