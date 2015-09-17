@@ -17,5 +17,6 @@ $(document).ready(function(){
       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     }
   );
+
 });
 

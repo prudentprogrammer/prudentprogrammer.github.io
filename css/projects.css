@@ -1,5 +1,7 @@
 body {
   background-image: url("../images/grey_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .page-title
@@ -75,4 +77,14 @@ nav .button-collapse i {
 .dropdown-content li:hover>a, .dropdown-content li:active>span {
   font-size: 1rem;
   background-color: #9e9e9e ;
+}
+
+p {
+  font-size: 1.2rem;
+}
+.flow-text {
+  font-size: 1.3rem;
+}
+.framework-text {
+  color: #993D00;
 }
