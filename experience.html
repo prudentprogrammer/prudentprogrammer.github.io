@@ -1,164 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <title>Experience</title>
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 
-  <link rel="stylesheet" href="css/experience.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Arjun Bharadwaj's Webpage">
+  <meta name="keywords" content="Arjun, Bharadwaj,prudentprogrammer">
+  <meta name="author" content="Arjun Bharadwaj">
+  <title>AB Main Page</title>
+  <!-- Compiled and minified CSS for Materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-    <script src="js/experience.js"></script>
+  <style>
+    body,
+    html {
+      /*/font-family: "Open Sans Bold";*/
+      height: 120%;
+    }
 
-    <div class="dropDown1">
-      <ul id='dropdown1' class="dropdown-content blue darken-4">
-        <li><a href="skills.html" class="white-text">Skills</a></li>
-        <li class="divider"></li>
-        <li><a href="teaching.html" class="white-text">Teaching</a></li>
-      </ul>
+    .tiledBackground {
+      background: #6ea8bb;
+      /* Old browsers */
+      background-size: 100% 100%;
+      width: 100%;
+      height: 100%;
+    }
+
+    #timeline .container ul {
+      margin: 0;
+      list-style: none;
+      position: relative;
+      padding: 4px 40px;
+      color: black;
+      font-size: 14px;
+    }
+
+    #timeline .container ul:before {
+      content: "";
+      width: 10px;
+      height: 90%;
+      position: absolute;
+      border-left: 2px dashed #696969;
+    }
+
+    #timeline .container ul li {
+      position: relative;
+      margin-left: 30px;
+      background-color: #cce4f5;
+      padding: 14px;
+      border-radius: 10px;
+      width: 100%;
+      box-shadow: 0 0 4px #696969, 0 2px 2px rgba(0, 0, 0, 0.08);
+    }
+
+    #timeline .container ul li:not(:first-child) {
+      margin-top: 60px;
+    }
+
+    #timeline .container ul li>span {
+      width: 3px;
+      height: 100%;
+      background: #696969;
+      left: -30px;
+      top: 0;
+      position: absolute;
+    }
+
+    #timeline .container ul li>span:before,
+    .container ul li>span:after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      border: 2px solid #696969;
+      position: absolute;
+      background: #86b7e7;
+      left: -5px;
+      top: 0;
+    }
+
+    #timeline .container ul li span:after {
+      top: 100%;
+    }
+
+    #timeline .container ul li>div {
+      margin-left: 10px;
+    }
+
+    #timeline .container div .title,
+    .container div .type {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    #timeline .container div .info {
+      font-weight: 300;
+      font-size: 16px;
+    }
+
+    #timeline .container div>div {
+      margin-top: 5px;
+    }
+
+    #timeline .container span.number {
+      height: 100%;
+    }
+
+    #timeline .container span.number span {
+      position: absolute;
+      font-size: 14px;
+      left: -40px;
+      font-weight: bold;
+      color: white;
+    }
+
+    #timeline .container span.number span:first-child {
+      top: 0;
+    }
+
+    #timeline .container span.number span:last-child {
+      top: 100%;
+    }
+  </style>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <!-- Custom JS scripts -->
+
+  <!-- Insert favicon -->
+  <link rel="icon" href="assets/favicon.ico">
+
+  <script>
+    $(document).ready(function() {
+      $('.sidenav').sidenav();
+      $('.collapsible').collapsible();
+      $('footer').remove(".page-footer");
+    });
+  </script>
+</head>
+
+<body>
+  <div class="tiledBackground">
+    <div id="introduction" class="container section center small">
+      <h2 class="white-text"><i class="small material-icons" style="padding-right:0.5em;">history</i>Work Experience</h2>
     </div>
 
-    <!-- Navigation Bar -->
-    <nav>
-      <div class="nav-wrapper blue darken-4">
-        <a href="index.html" class="left hide-on-med-and-down" id="mainLink">Home</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="experience.html" class="white-text">Experience</a></li>
-          <li><a href="projects.html" class="white-text">Projects</a></li>
-          <li><a href="education.html" class="white-text">Education</a></li>
-          <li><a href="resume.pdf" class="white-text">Resume</a></li>
-          <!-- Dropdown Trigger -->
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Miscellenous<i class="tiny material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="life.html" class="white-text">Personal Life</a></li>
-        </ul>
+    <div id="timeline">
+      <div class="container">
+        <ul>
+          <li>
+            <div>
+              <div class="title">iOS SDK Engineer, Amazon</div>
+              <div class="info">
+                • Build a Amazon Advertising SDK
+                • Built a custom release pipeline which autodeployed the artifacts end-to-end.
+              </div>
 
-        <!-- For the mobile menu -->
-        <ul id="slide-out" class="side-nav blue darken-4">
-          <li><a href="index.html" class="white-text">Home Page</a></li>
-          <li><a href="experience.html" class="white-text">Experience</a></li>
-          <li><a href="projects.html" class="white-text">Projects</a></li>
-          <li><a href="education.html" class="white-text">Education</a></li>
-          <li><a href="resume.pdf" class="white-text">Resume</a></li>
-          <li><a href="skills.html" class="white-text">Skills</a></li>
-          <li><a href="teaching.html" class="white-text">Teaching</a></li>
-          <li><a href="life.html" class="white-text">Personal Life</a></li>
+            </div> <span class="number"><span>Present</span> <span>Jan 2019</span></span>
+          </li>
+          <li>
+            <div>
+              <div class="title">iOS Engineer, Bank of America</div>
+              <div class="info">
+                • Implemented user design interfaces for the main mobile application that was used by <strong>25 million end users.</strong><br />
+                • Optimized the app’s space by <strong>14-15%</strong> by removing unnecessary assets. <br />
+                • Actively contributed to the improvement of app through regression testing, bug fixes, and performance enhancements.<br />
+              </div>
+
+            </div> <span class="number"><span>Jan 2019</span> <span>April 2017</span></span>
+          </li>
+          <li>
+            <div><span></span>
+              <div class="title">Data Scientist Intern, Altice USA</div>
+              <div class="info">
+                • Performed data munging on customer data with the intent of making it more appropriate for analytics and machine learning.<br />
+                • Achieved <strong>10x</strong> speedup of programs by using Spark and its Standalone cluster. <br />
+              </div>
+            </div> <span class="number"><span>June 2015</span><span>June 2014</span></span>
+          </li>
+          <li>
+            <div><span></span>
+              <div class="title">Data Analyst Intern, UC Davis</div>
+              <div class="info">
+                • Developed and tested Python scripts to extract and process large amounts of transportation data.<br />
+                • Performed data analytics on the outputs and produced professional reports.<br />
+              </div>
+            </div> <span class="number"><span>June 2014</span><span>June 2015</span></span>
+          </li>
+          <li>
+            <div class="grey-text text-darken-4"><span></span>
+              <div class="title grey-text text-darken-4">Android Application Developer Intern, The Creative App Company</div>
+              <div class="info">
+                • Implemented a professional application on the Android platform using <strong>Java</strong> and <strong>XML</strong> in <strong>3 months.</strong><br />
+                • Actively interacted with a team of five people to successfully develop the product.<br />
+              </div>
+            </div> <span class="number"><span>Jun 2013</span><span>Apr 2013</span></span>
+          </li>
         </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
       </div>
-    </nav>
-
-    <div id="introduction" class="container section">
-      <h2 id="experienceTitle"><i class="medium material-icons" id="workIcon">history</i>Work Experience</h2>
     </div>
-
-    <div class="container section">
-      <ul class="collapsible" data-collapsible="expandable">
-        <li>
-          <div class="collapsible-header blue lighten-5 purple-text text-darken-4">
-            <div class="row">
-              <div class="col s12 m9 left-align">
-                <i class="material-icons">code</i>Data Analyst/Student Programmer, Institute of Transporation Studies (ITS)
-              </div>
-              
-              <div class="hide-on-med-and-down">
-                <div class="col s0 m3 right-align">
-                  <span>June 2014 - Present</span>
-                </div>
-              </div>  
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <ul>
-              <li><i class="tiny material-icons">add_circle_outline</i> Developed and tested Python and PostgreSQL scripts to extract and process large amounts of transportation data.</li>
-              <li><i class="tiny material-icons">add_circle_outline</i> Performed data analytics on the outputs and produced professional reports.</li>
-            </ul>
-          </div>
-        </li>
-
-        <li>
-          <div class="collapsible-header blue lighten-5 blue-text text-darken-4">
-            <div class="row">
-              <div class="col s12 m9 left-align">
-                <i class="material-icons">school</i>Tutor, Davis Computer Science Club
-              </div>
-              
-              
-              <div class="hide-on-med-and-down">
-                <div class="col s0 m3 right-align">
-                  <span>Dec 2013 - Dec 2014</span>
-                </div>
-              </div>  
-            </div>
-          </div>
-          <div class="collapsible-body ">
-            <ul>
-              <li><i class="tiny material-icons">add_circle_outline</i> Assisted many students in understanding programming projects and concepts for various classes by</li><li class="extraneous">deconstructing it to the fundamentals.</li>
-              <li><i class="tiny material-icons">add_circle_outline</i> Actively participated in helping students in classes such as Programming Languages, Computer Architecture, </li>
-              <li class="extraneous">Assembly Language, and Operating Systems.</li>
-            </ul>
-          </div>
-        </li>
-
-        <li>
-          <div class="collapsible-header  blue lighten-5  green-text text-darken-4">
-            <div class="row">
-              <div class="col s12 m9 left-align">
-                <i class="material-icons">android</i>Android Application Developer Intern, The Creative App Company
-              </div>
-              
-              <div class="hide-on-med-and-down">
-                <div class="col s0 m3 right-align">
-                  <span>Apr 2013 - Jun 2013</span>
-                </div>
-              </div>  
-              
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <ul>
-              <li><i class="tiny material-icons">add_circle_outline</i> Implemented a professional application on the Android platform using Java and XML in 2 months.  </li>
-              <li><i class="tiny material-icons">add_circle_outline</i> Actively interacted with a team of five people to successfully develop the product.</li>
-            </ul>
-          </div>
-        </li>
-
-        <li>
-          <div class="collapsible-header blue lighten-5  deep-orange-text text-darken-4">
-            <div class="row">
-              <div class="col s10 m9 left-align">
-                <i class="material-icons">phone_iphone</i>IPhone and IPad Enterprise Developer Intern, OpsVeda Inc.
-              </div>
-              
-              <div class="hide-on-med-and-down">
-                <div class="col s0 m3 right-align">
-                  <span>Jun 2011 - Aug 2011</span>
-                </div>
-              </div>  
-              
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <ul>
-              <li><i class="tiny material-icons">add_circle_outline</i> Developed a fully-fledged enterprise application on the I-Phone and I-Pad platforms in 3 months.</li>
-              <li><i class="tiny material-icons">add_circle_outline</i> Performed data analytics on the information to display the output in the form of pie charts and bar graphs.</li>
-              <!-- <li class="extraneous">analytical transaction reports such as pie charts and bar graphs.</li> -->
-              <li><i class="tiny material-icons">add_circle_outline</i> Constantly communicated with a group of ten people to acquire ideas and implement the robust app.</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    
-  </body>
+  </div>
+</body>
 
 </html>
